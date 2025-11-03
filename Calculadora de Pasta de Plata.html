@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)file:///C:/Users/A6101556/Downloads/Calculadora%20para%20pasta%20de%20plata.html -->
+<html lang="es"><head style=""><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title style="
+">Calculadora de Pasta de Plata</title>
+</head><body style="
+    width: 900px;
+    /* font-size:25px; */
+    padding-top: 40px;
+    "><img src="data:image/png;base64,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" style="
+    ALIGN-CONTENT: CENTER;
+    padding-left: 280px;
+"><style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #FFFFFF;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #FF0000;
+        }
+        label {
+            display: block;
+            margin-top: 20px;
+        }
+        select, input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+        }
+        .section {
+            background-color: #ffffff;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .note {
+            color: red;
+            font-size: 0.9em;
+        }
+        #resultado {
+            background-color: #e8f0fe;
+            border-left: 5px solid #001f3f;
+            padding: 15px;
+            margin-top: 20px;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #001f3f;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 30px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 8px;
+            text-align: center;
+        }
+        th {
+            background-color: #001f3f;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        button {
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #001f3f;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #003366;
+        }
+    </style>
+
+
+<h1>Calculadora de Pasta de Plata</h1>
+<div class="section" style="
+    COLOR: #156082;
+    width: 480px;
+    font-size:30px;
+    font-family: Arial black;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 220px;
+    ">
+<label for="vidrio">Tipo de vidrio:</label>
+<select id="vidrio" style="
+    FONT-SIZE: 22PX;
+    /* font-family: arial black; */
+    width: 480px;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+">
+<option value="BL">BL (70% y 85%)</option>
+<option value="WS">WS (60% y 88%)</option>
+</select>
+<label for="tipoPasta">Tipo de pasta:</label>
+<select id="tipoPasta" style="
+    FONT-SIZE: 22PX;
+    width: 480px;
+border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+">
+<option value="base" style="FONT-SIZE:20PX;">Pastas base</option>
+<option value="una" style="font-size:20px;">Una pasta preparada</option>
+<option value="ambas" style="FONT-SIZE:20PX;">Ambas pastas preparadas</option>
+</select>
+<div id="inputs" style="
+    width: 460px;
+    FONT-SIZE: 30PX;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;
+    ">
+                    <label for="riquezaDeseada">¿Qué riqueza deseas preparar?</label>
+                    <input type="number" id="riquezaDeseada" onkeydown="siguienteCampo(event, &#39;cantidadTotal&#39;)">
+                    <label for="cantidadTotal">¿Qué cantidad total deseas preparar?</label>
+                    <input type="number" id="cantidadTotal" onkeydown="calcularEnter(event)">
+                </div>
+
+<div id="resultado" style="                                              width: 460px;
+    FONT-SIZE: 22PX;
+border-top-width: 2px;
+    border-right-width: 2px;
+    border-left-width: 2px;
+    border-bottom-width: 2px;"></div>
+<div><div style="COLOR:#FFFFFF"></div></div><div style="text-align: left;margin-bottom: 10px;width: 880px;padding-top: 30px;"><button onclick="calcular()" style="background-color:#c00; color:white; border:2px outset #800; padding:10px 20px; margin:0 10px; font-weight:bold; cursor:pointer;
+font-size:30px;">Calcular</button><button onclick="limpiar()" style="background-color:#c00; color:white; border:2px outset #800; padding:10px 20px; margin:0 10px; font-weight:bold; cursor:pointer;font-size:30px;" type="button">Limpiar</button><button onclick="exportarExcel();" style="background-color:#c00; color:white; border:2px outset #800; padding 8px 20px; margin:0 10px; font-weight:bold; cursor:pointer;font-size:30px;" type="button">Download CSV</button></div></div>
+<table id="historial" style="display: none;
+">
+<thead>
+<tr>
+<th>Fecha y Hora</th>
+<th>Vidrio</th>
+<th>Tipo de Pasta</th>
+<th>Riqueza Deseada</th>
+<th>Resultado</th>
+</tr>
+</thead>
+<tbody><tr><td>28/10/2025, 1:55:31 p.m.</td><td>BL</td><td>base</td><td>77%</td><td>Debes mezclar 1067 g de pasta 70% y 933 g de pasta 85% para obtener 2000 g con 77% de riqueza.</td></tr><tr><td>28/10/2025, 1:56:22 p.m.</td><td>BL</td><td>base</td><td>76%</td><td>Debes mezclar 120 g de pasta 70% y 80 g de pasta 85% para obtener 200 g con 76% de riqueza.</td></tr><tr><td>28/10/2025, 2:05:22 p.m.</td><td>BL</td><td>base</td><td>77%</td><td>Debes mezclar 213 g de pasta 70% y 187 g de pasta 85% para obtener 400 g con 77% de riqueza.</td></tr><tr><td>28/10/2025, 3:22:20 p.m.</td><td>BL</td><td>una</td><td>78%</td><td>Debes agregar 80 g de pasta de 85% para obtener 640 g con 78% de riqueza.</td></tr><tr><td>28/10/2025, 3:23:30 p.m.</td><td>BL</td><td>base</td><td>77%</td><td>Debes mezclar 427 g de pasta 70% y 373 g de pasta 85% para obtener 800 g con 77% de riqueza.</td></tr><tr><td>28/10/2025, 3:23:51 p.m.</td><td>BL</td><td>una</td><td>79%</td><td>Debes agregar 175 g de pasta de 85% para obtener 475 g con 79% de riqueza.</td></tr><tr><td>28/10/2025, 3:32:07 p.m.</td><td>BL</td><td>ambas</td><td>74.5%</td><td>Debes agregar 500 g de pasta de 74% para obtener 1000 g con 74.5% de riqueza.</td></tr><tr><td>28/10/2025, 3:48:38 p.m.</td><td>BL</td><td>base</td><td>77%</td><td>Debes mezclar 267 g de pasta 70% y 233 g de pasta 85% para obtener 500 g con 77% de riqueza.</td></tr><tr><td>28/10/2025, 3:51:29 p.m.</td><td>BL</td><td>base</td><td>77%</td><td>Debes mezclar 53 g de pasta 70% y 47 g de pasta 85% para obtener 100 g con 77% de riqueza.</td></tr><tr><td>28/10/2025, 3:51:35 p.m.</td><td>BL</td><td>base</td><td>77%</td><td>Debes mezclar 55 g de pasta 70% y 49 g de pasta 85% para obtener 104 g con 77% de riqueza.</td></tr><tr><td>30/10/2025, 17:42:23</td><td>BL</td><td>base</td><td>77%</td><td>Debes mezclar 267 g de pasta 70% y 233 g de pasta 85% para obtener 500 g con 77% de riqueza.</td></tr><tr><td>30/10/2025, 18:40:09</td><td>BL</td><td>una</td><td>74%</td><td>Debes agregar 125 g de pasta de 70% para obtener 625 g con 74% de riqueza.</td></tr><tr><td>30/10/2025, 18:40:09</td><td>BL</td><td>una</td><td>74%</td><td>Debes agregar 125 g de pasta de 70% para obtener 625 g con 74% de riqueza.</td></tr><tr><td>31/10/2025, 12:13:07</td><td>BL</td><td>una</td><td>73%</td><td>Debes agregar 333 g de pasta de 70% para obtener 833 g con 73% de riqueza.</td></tr><tr><td>31/10/2025, 12:31:21</td><td>BL</td><td>base</td><td>72%</td><td>Debes mezclar 693 g de pasta 70% y 107 g de pasta 85% para obtener 800 g con 72% de riqueza.</td></tr><tr><td>31/10/2025, 12:31:35</td><td>WS</td><td>base</td><td>72%</td><td>Debes mezclar 457 g de pasta 60% y 343 g de pasta 88% para obtener 800 g con 72% de riqueza.</td></tr><tr><td>31/10/2025, 12:35:44</td><td>WS</td><td>una</td><td>70%</td><td>Debes agregar 129 g de pasta de 60% para obtener 558 g con 70% de riqueza.</td></tr><tr><td>31/10/2025, 12:37:49</td><td>WS</td><td>base</td><td>74%</td><td>Debes mezclar 500 g de pasta 60% y 500 g de pasta 88% para obtener 1000 g con 74% de riqueza.</td></tr><tr><td>31/10/2025, 12:38:34</td><td>WS</td><td>base</td><td>87%</td><td>Debes mezclar 36 g de pasta 60% y 964 g de pasta 88% para obtener 1000 g con 87% de riqueza.</td></tr><tr><td>31/10/2025, 16:03:32</td><td>WS</td><td>una</td><td>70.6%</td><td>Debes agregar 23 g de pasta de 88% para obtener 698 g con 70.6% de riqueza.</td></tr><tr><td>31/10/2025, 17:06:01</td><td>BL</td><td>una</td><td>71%</td><td>Debes agregar 51 g de pasta de 85% para obtener 761 g con 71% de riqueza.</td></tr><tr><td>31/10/2025, 21:10:10</td><td>WS</td><td>base</td><td>74%</td><td>Debes mezclar 1000 g de pasta 60% y 1000 g de pasta 88% para obtener 2000 g con 74% de riqueza.</td></tr></tbody>
+</table>
+<script>
+        const inputsDiv = document.getElementById("inputs");
+        const resultadoDiv = document.getElementById("resultado");
+        const historialBody = document.querySelector("#historial tbody");
+
+        document.getElementById("tipoPasta").addEventListener("change", mostrarInputs);
+        document.getElementById("vidrio").addEventListener("change", mostrarInputs);
+
+        function mostrarInputs() {
+            const tipo = document.getElementById("tipoPasta").value;
+            inputsDiv.innerHTML = "";
+            resultadoDiv.innerHTML = "";
+
+            if (tipo === "base") {
+                inputsDiv.innerHTML = `
+                    <label for="riquezaDeseada">¿Qué riqueza deseas preparar?</label>
+                    <input type="number" id="riquezaDeseada" onkeydown="siguienteCampo(event, 'cantidadTotal')">
+                    <label for="cantidadTotal">¿Qué cantidad total deseas preparar?</label>
+                    <input type="number" id="cantidadTotal" onkeydown="calcularEnter(event)">
+                `;
+            } else if (tipo === "una") {
+                inputsDiv.innerHTML = `
+                    <label for="riquezaInicial">¿Qué riqueza estás trabajando?</label>
+                    <input type="number" id="riquezaInicial" onkeydown="siguienteCampo(event, 'gramosInicial')">
+                    <label for="gramosInicial">¿Cuántos gramos de pasta tienes?</label>
+                    <input type="number" id="gramosInicial" onkeydown="siguienteCampo(event, 'riquezaDeseada')" >
+                    <span class="note">Recuerda quitar el peso del bote</span>
+                    <label for="riquezaDeseada">¿Qué riqueza deseas preparar?</label>
+                    <input type="number" id="riquezaDeseada" onkeydown="calcularEnter(event)">
+                `;
+            } else if (tipo === "ambas") {
+                inputsDiv.innerHTML = `
+                    <label for="riquezaInicial">¿Cuál es tu riqueza inicial?</label>
+                    <input type="number" id="riquezaInicial" onkeydown="siguienteCampo(event, 'gramosInicial')">
+                    <label for="gramosInicial">¿Cuántos gramos de pasta tienes?</label>
+                    <input type="number" id="gramosInicial" onkeydown="siguienteCampo(event, 'riquezaDeseada')">
+                    <span class="note">Recuerda quitar el peso del bote</span>
+                    <label for="riquezaDeseada">¿Qué riqueza deseas preparar?</label>
+                    <input type="number" id="riquezaDeseada" onkeydown="siguienteCampo(event, 'riquezaAjuste')">
+                    <label for="riquezaAjuste">¿Cuál es tu riqueza para ajustar?</label>
+                    <input type="number" id="riquezaAjuste" onkeydown="calcularEnter(event)">
+                `;
+            }
+        }
+
+        function siguienteCampo(e, siguienteId) {
+            if (e.key === "Enter") {
+                document.getElementById(siguienteId).focus();
+            }
+        }
+
+        function calcularEnter(e) {
+            if (e.key === "Enter") {
+                calcular();
+            }
+        }
+
+        function calcular() {
+            const tipo = document.getElementById("tipoPasta").value;
+            const vidrio = document.getElementById("vidrio").value;
+            let resultado = "";
+            let riquezaDeseada = parseFloat(document.getElementById("riquezaDeseada").value);
+
+            const baseRiquezas = vidrio === "BL" ? [70, 85] : [60, 88];
+
+            if (baseRiquezas.includes(riquezaDeseada)) {
+                alert("No es posible hacer el cálculo porque tu riqueza deseada es la riqueza base.");
+                return;
+            }
+
+            if (tipo === "base") {
+                let cantidadTotal = parseFloat(document.getElementById("cantidadTotal").value);
+                let r1 = baseRiquezas[0];
+                let r2 = baseRiquezas[1];
+                let g2 = ((riquezaDeseada - r1) * cantidadTotal) / (r2 - r1);
+                let g1 = cantidadTotal - g2;
+                if (g1 < 0 || g2 < 0 || !isFinite(g1) || !isFinite(g2)) {
+                    alert("NO PUEDES HACER ESTA MEZCLA PORQUE TU RIQUEZA DESEADA ES MAYOR O MENOR A TUS RIQUEZAS DE AJUSTE.");
+                    return;
+                }
+                resultado = `Debes mezclar ${Math.round(g1)} g de pasta ${r1}% y ${Math.round(g2)} g de pasta ${r2}% para obtener ${Math.round(cantidadTotal)} g con ${riquezaDeseada}% de riqueza.`;
+            }
+
+            if (tipo === "una") {
+                let riquezaInicial = parseFloat(document.getElementById("riquezaInicial").value);
+                let gramosInicial = parseFloat(document.getElementById("gramosInicial").value);
+                let r = riquezaDeseada > riquezaInicial ? baseRiquezas[1] : baseRiquezas[0];
+                let gramosAgregar = riquezaDeseada > riquezaInicial ?
+                    (gramosInicial * (riquezaDeseada - riquezaInicial)) / (r - riquezaDeseada) :
+                    (gramosInicial * (riquezaInicial - riquezaDeseada)) / (riquezaDeseada - r);
+                if (gramosAgregar < 0 || !isFinite(gramosAgregar)) {
+                    alert("NO PUEDES HACER ESTA MEZCLA PORQUE TU RIQUEZA DESEADA ES MAYOR O MENOR A TUS RIQUEZAS DE AJUSTE.");
+                    return;
+                }
+                let total = gramosInicial + gramosAgregar;
+                resultado = `Debes agregar ${Math.round(gramosAgregar)} g de pasta de ${r}% para obtener ${Math.round(total)} g con ${riquezaDeseada}% de riqueza.`;
+            }
+
+            if (tipo === "ambas") {
+                let riquezaInicial = parseFloat(document.getElementById("riquezaInicial").value);
+                let gramosInicial = parseFloat(document.getElementById("gramosInicial").value);
+                let riquezaAjuste = parseFloat(document.getElementById("riquezaAjuste").value);
+                let gramosAgregar = riquezaDeseada > riquezaInicial ?
+                    (gramosInicial * (riquezaDeseada - riquezaInicial)) / (riquezaAjuste - riquezaDeseada) :
+                    (gramosInicial * (riquezaInicial - riquezaDeseada)) / (riquezaDeseada - riquezaAjuste);
+                if (gramosAgregar < 0 || !isFinite(gramosAgregar)) {
+                    alert("NO PUEDES HACER ESTA MEZCLA PORQUE TU RIQUEZA DESEADA ES MAYOR O MENOR A TUS RIQUEZAS DE AJUSTE.");
+                    return;
+                }
+                let total = gramosInicial + gramosAgregar;
+                resultado = `Debes agregar ${Math.round(gramosAgregar)} g de pasta de ${riquezaAjuste}% para obtener ${Math.round(total)} g con ${riquezaDeseada}% de riqueza.`;
+            }
+
+            resultadoDiv.innerHTML = resultado;
+
+            const now = new Date().toLocaleString();
+            const newRow = `<tr><td>${now}</td><td>${vidrio}</td><td>${tipo}</td><td>${riquezaDeseada}%</td><td>${resultado}</td></tr>`;
+            historialBody.innerHTML += newRow;
+        }
+
+        function limpiar() {
+            inputsDiv.innerHTML = "";
+            resultadoDiv.innerHTML = "";
+            mostrarInputs();
+        }
+
+        mostrarInputs();
+    </script>
+<script>
+function exportarExcel() {
+    var table = document.querySelector("table");
+    var html = table.outerHTML.replace(/<a[^>]*>|<\/a>/g, "");
+    var url = 'data:application/vnd.ms-excel,' + encodeURIComponent(html);
+    var link = document.createElement("a");
+    link.href = url;
+    link.download = "datos_pasta_plata.xls";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
+</script>
+
+</body></html>
